@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 2px solid gold;
+    margin: 5px;
+}
+.container{
+    display: flex;
+    position: relative;
+}
+.box-2{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.box-3{
+    z-index: 1;
+}
